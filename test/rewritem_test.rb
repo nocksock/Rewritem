@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../rewritem.rb'
+require File.expand_path('../../rewritem.rb', __FILE__)
 
 class RewritemTest < Test::Unit::TestCase
   def test_parsing_example_file
