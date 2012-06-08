@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require_relative './rewritem.rb'
+
+fp = File.open ARGV[0].gsub('.dat', '.txt'), 'w' do |f|
+  f.write Rewritem.parse ARGV[0]
+end
