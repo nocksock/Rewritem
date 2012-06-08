@@ -1,0 +1,14 @@
+# Rewritem
+
+I have no idea what this exactly is for. A friend of mine asked me to write
+this. It takes a `.dat` filename as an argument and strips all lines but those
+starting with a space followed by a number and writes the result into an equally
+named file - except with `.txt` as an extension.
+
+Probably not of much use for anyone but him. I even don't know what that stuff
+in the files are. It was just a great opportunity to use TDD and give TestUnit
+a try - turned out that I pretty much like TestUnit.
+
+## Usage
+
+    $ rewritem somefile.dat
